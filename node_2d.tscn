@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dxs8cl865trd6"]
 
-[ext_resource type="Script" path="res://loot_homework.gd" id="1_0gpjr"]
+[ext_resource type="Script" path="res://dicionarios.gd" id="1_i13pp"]
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_0gpjr")
+script = ExtResource("1_i13pp")
