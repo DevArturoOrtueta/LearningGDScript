@@ -3,6 +3,8 @@ extends Node
 func _ready():
 	var cazuela = "Cebolla"
 	print(cazuela)
+	var dano = 1 + 2
+	print(dano)
 
 #Tipos de datos
 
@@ -28,3 +30,8 @@ const VIDA_INICIAL = 10
 #Tipado estatico
 
 var mi_texto:String = "una frase"
+#Aplica a todos los tipos de datos vistos antes
+
+#Operadores aritmeticos
+
+var dano = 1 + 2
