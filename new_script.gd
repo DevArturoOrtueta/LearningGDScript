@@ -20,3 +20,8 @@ var coordenadas_enteras = Vector2i(1,7) #Vector2i es lo mismo que el anterior, s
 var coordenadas3D = Vector3(1,1,3) #Vector3 permite tomar los ejes x, y y z, tiene su equivalente a enteros Vector3i
 
 var color_fondo = Color(1,1,1,0) #Color permite tomar un color rgba
+
+#CONSTANTES
+
+const VIDA_INICIAL = 10
+
