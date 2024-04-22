@@ -35,3 +35,23 @@ var mi_texto:String = "una frase"
 #Operadores aritmeticos
 
 var dano = 1 + 2
+# + suma
+# * multiplicacin
+# / division
+# Los parentesis se desarrollan primero
+# Cambio de signo podemos poner un - frente a la variable, ejemplo -daño
+# ** Potencia
+# % devuelve el resto de una division
+# = asigna la variable
+# += asignacion mas suma
+# -= asignacion mas resta
+# Lo mismo aplica para los otros operadores
+
+# Operadores de asignacion
+
+# == operador de verificacion
+# != distinto de
+# < menor que
+# > mayor que
+# <= menor igual que
+# >= mayor igual que
