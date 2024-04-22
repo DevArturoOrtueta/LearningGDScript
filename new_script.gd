@@ -55,3 +55,15 @@ var dano = 1 + 2
 # > mayor que
 # <= menor igual que
 # >= mayor igual que
+
+# Operadores booleandos
+
+# and permite juntar varios operadores, ejemplo: herido = vida_actual < VIDA_INICIAL and vida_actual > 0
+# esto necesita que ambos sean verdaderos para funcionar y devolver true
+
+# not cambia el valor de una variable booleana ejemplo muerto = true, si ponemos not muerto es false
+
+# or nos permite elegir entre una u otra opcion a diferencia de and que debe ser las 2 ciertas
+
+
+# el simbolo \ se pone al final de una linea si quieres continuarla en la siguiente linea como si fuera una
