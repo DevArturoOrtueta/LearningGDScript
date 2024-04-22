@@ -25,3 +25,6 @@ var color_fondo = Color(1,1,1,0) #Color permite tomar un color rgba
 
 const VIDA_INICIAL = 10
 
+#Tipado estatico
+
+var mi_texto:String = "una frase"
