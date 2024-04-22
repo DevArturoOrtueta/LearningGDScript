@@ -3,9 +3,18 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	var inventario = []
+	inventario = ['pocion']
+	
+	# append incluye al final de la lista
+	inventario.append("hierbas")
+	
+	for posicion in inventario.size():
+		print(inventario[posicion])
+		if inventario[posicion] == "pocion":
+			inventario[posicion] = "pocion vacia"
+		elif inventario[posicion] == "hierbas":
+			inventario.remove_at(posicion)
+			# remove_at elimina el elemento de una posicion
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+	print(inventario)
